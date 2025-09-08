@@ -162,12 +162,16 @@
                 <p>
                     <label for="drink">Favorite drink:</label>
                     <select name="drink" id="drink">
-                        <option value="Water">Water</option>
-                        <option value="Soda">Soda</option>
-                        <option value="Coffee">Coffee</option>
-                        <option value="Milkshake">Milkshake</option>
-                        <option value="Beer">Beer</option>
-                        <option value="Vodka">Vodka</option>
+                        <optgroup label="No Alcohol">
+                            <option value="Water">Water</option>
+                            <option value="Soda">Soda</option>
+                            <option value="Coffee">Coffee</option>
+                            <option value="Milkshake" selected>Milkshake</option>
+                        </optgroup>
+                        <optgroup label="Alcohol">
+                            <option value="Beer">Beer</option>
+                            <option value="Vodka">Vodka</option>
+                        </optgroup>
                     </select>
                 </p>
             </form>
