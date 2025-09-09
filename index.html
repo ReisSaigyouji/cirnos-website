@@ -144,36 +144,40 @@
         <article id="talk-to-me">
             <h2>Talk to me here!</h2>
             <p>I'd love to talk to you, followers of great Cirno!</p>
+            <!--Here we ask about things-->
             <form action="https://httpbin.org/get" method="get">
-                <p>
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" id="name" placeholder="Reimu" autocomplete="on" required>
-                </p>
-                <p>
-                    <label for="password">Password:</label>
-                    <input type="password" name="password" id="password" placeholder="your password" required>
-                </p>
-                <p>
-                    <label for="fav-number">Your favorite number:</label>
-                    <input type="number" name="fav-number" id="fav-number"
-                           min="0" max="10" step="1" value="9">
-                </p>
+                <fieldset>
+                    <legend>Tell me your things :></legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Reimu" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="your password" required>
+                    </p>
+                    <p>
+                        <label for="fav-number">Your favorite number:</label>
+                        <input type="number" name="fav-number" id="fav-number"
+                               min="0" max="10" step="1" value="9">
+                    </p>
 
-                <p>
-                    <label for="drink">Favorite drink:</label>
-                    <select name="drink" id="drink" multiple size="5">
-                        <optgroup label="No Alcohol">
-                            <option value="Water">Water</option>
-                            <option value="Soda">Soda</option>
-                            <option value="Coffee">Coffee</option>
-                            <option value="Milkshake" selected>Milkshake</option>
-                        </optgroup>
-                        <optgroup label="Alcohol">
-                            <option value="Beer">Beer</option>
-                            <option value="Vodka">Vodka</option>
-                        </optgroup>
-                    </select>
-                </p>
+                    <p>
+                        <label for="drink">Favorite drink:</label>
+                        <select name="drink" id="drink" multiple size="5">
+                            <optgroup label="No Alcohol">
+                                <option value="Water">Water</option>
+                                <option value="Soda">Soda</option>
+                                <option value="Coffee">Coffee</option>
+                                <option value="Milkshake" selected>Milkshake</option>
+                            </optgroup>
+                            <optgroup label="Alcohol">
+                                <option value="Beer">Beer</option>
+                                <option value="Vodka">Vodka</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                </fieldset>
             </form>
         </article>
     </main>
