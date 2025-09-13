@@ -26,6 +26,10 @@ table, tr, td, th, caption {
     padding: 0.5rem;
 }
 
-h1  {
+h1, h2, h3, h4, h5, h6  {
     color: lightskyblue;
+}
+
+p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary, hr {
+    color: lightblue;
 }
