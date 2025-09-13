@@ -37,3 +37,7 @@ p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary,
 .deepskyblue {
     color: deepskyblue;
 }
+
+#about-me {
+    font-size: 28px;
+}
