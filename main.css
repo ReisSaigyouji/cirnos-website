@@ -9,6 +9,9 @@ body {
 
 header {
     font-family: monospace;
+    p, a {
+        font-size: 1rem;
+    }
 }
 
 a {
