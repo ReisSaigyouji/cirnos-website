@@ -7,6 +7,12 @@ body {
     color: whitesmoke;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     font-family: monospace;
     p, a {
@@ -38,19 +44,16 @@ h1, h2, h3, h4, h5, h6  {
 }
 
 
-h1 {
+.container {
     border: 2px dashed lightskyblue;
     width: 51%;
     padding: 10px;
+    color: deepskyblue;
 }
 
 p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary, hr {
     color: lightblue;
     font-size: 20px
-}
-
-.deepskyblue {
-    color: deepskyblue;
 }
 
 #about-me {
