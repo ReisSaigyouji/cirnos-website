@@ -58,7 +58,7 @@ p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary,
 .container {
     border: 2px dashed lightskyblue;
     padding: 1.5rem;
-    margin: 2em;
+    margin: 1.5em 2em;
     /*margin-top: 1.5rem;*/
     /*margin-right: 2em;*/
     /*margin-left: 2em;*/
