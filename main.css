@@ -72,6 +72,7 @@ p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary,
     width: 100px;
     height: 100px;
     border: 2px solid mediumblue;
+    border-radius: 50%;
     outline: 2px double lightskyblue;
     outline-offset: 0.25rem;
 }
