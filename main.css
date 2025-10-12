@@ -39,15 +39,11 @@ table, tr, td, th, caption {
     padding: 0.5rem;
 }
 
-h1, h2, h3, h4, h5, h6  {
+h2, h3, h4, h5, h6  {
     color: lightskyblue;
 }
 
 
-.container {
-    border: 2px dashed lightskyblue;
-    padding: 10px;
-}
 
 p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary, hr {
     color: lightblue;
@@ -56,6 +52,12 @@ p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary,
 
 .deepskyblue {
     color: deepskyblue;
+}
+
+.container {
+    border: 2px dashed lightskyblue;
+    padding: 10px;
+    font-size: 1.5rem;
 }
 
 #about-me {
