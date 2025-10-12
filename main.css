@@ -46,14 +46,16 @@ h1, h2, h3, h4, h5, h6  {
 
 .container {
     border: 2px dashed lightskyblue;
-    width: 51%;
     padding: 10px;
-    color: deepskyblue;
 }
 
 p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary, hr {
     color: lightblue;
     font-size: 20px
+}
+
+.deepskyblue {
+    color: deepskyblue;
 }
 
 #about-me {
