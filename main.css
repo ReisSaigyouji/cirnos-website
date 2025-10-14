@@ -45,6 +45,10 @@ p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary,
     font-size: 20px
 }
 
+input, button {
+    font: inherit;
+}
+
 .deepskyblue {
     color: deepskyblue;
 }
