@@ -12,6 +12,7 @@ header {
     font-family: monospace;
     p, a {
         font-size: 1rem;
+        font-weight: 600;
     }
 }
 
