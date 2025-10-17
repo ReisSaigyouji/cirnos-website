@@ -44,7 +44,8 @@ h1, h2 {
 
 p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary, hr {
     color: lightblue;
-    font-size: 20px
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 input, button {
@@ -64,7 +65,7 @@ input, button {
     /*margin-right: 2em;*/
     /*margin-left: 2em;*/
     /*margin-bottom: 2em;*/
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .circle {
