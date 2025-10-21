@@ -17,11 +17,11 @@ header {
 }
 
 a {
-    color: aliceblue;
+    color: lightgray;
 }
 
 a:visited {
-    color: lightgrey;
+    color: lightskyblue;
 }
 
 a:hover, a:active {
