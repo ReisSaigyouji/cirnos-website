@@ -26,8 +26,12 @@ a:visited {
     color: dodgerblue;
 }
 
-a:hover, a:active {
+a:hover {
     color: #eee;
+}
+
+a:active {
+    color: deepskyblue;
 }
 
 table, tr, td, th, caption {
