@@ -66,6 +66,11 @@ ol {
 ul {
     list-style-type: square;
 }
+
+ul li:nth-child(even) {
+    color: lightskyblue;
+}
+
 .deepskyblue {
     color: deepskyblue;
 }
