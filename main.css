@@ -98,6 +98,11 @@ ul li:nth-child(even) {
     outline-offset: 0.25rem;
 }
 
+.opposite {
+    background-color: lightskyblue;
+    color: #333;
+}
+
 #about-me {
     font-size: 28px;
 }
