@@ -49,6 +49,10 @@ h1, h2 {
     text-decoration: underline;
 }
 
+h1 {
+    text-align: center;
+}
+
 p, li, dl, dt, dd, details, figcaption, figure, li, main, nav, section, summary, hr {
     color: lightblue;
     font-size: 20px;
@@ -99,6 +103,7 @@ ul li:nth-child(even) {
 }
 
 .opposite {
+    display: inline-block;
     background-color: lightskyblue;
     color: #333;
 }
