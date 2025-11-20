@@ -113,6 +113,19 @@ ul li:nth-child(even) {
     margin-right: 2.5rem;
 }
 
+.columns {
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 300px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
 #about-me {
     font-size: 28px;
 }
