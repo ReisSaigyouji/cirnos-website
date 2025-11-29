@@ -146,6 +146,18 @@ footer p {
     margin: 0;
 }
 
+.containerwithboxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 2fr);
+    grid-auto-rows: 200px;
+}
+
+.box {
+    background-color: lightskyblue;
+    color:#333;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
 
 #about-me {
     font-size: 28px;
