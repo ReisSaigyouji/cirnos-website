@@ -1,5 +1,5 @@
 html {
-    font-size: 21px;
+    font-size: 1.3rem;
 }
 
 body {
@@ -185,3 +185,4 @@ footer p {
     display: block;
 }
 
+/*Small screens*/
