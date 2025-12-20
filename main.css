@@ -10,10 +10,11 @@ body {
 
 header {
     font-family: monospace;
-    p, a {
-        font-size: 1rem;
-        font-weight: 600;
-    }
+ }
+
+header p, header a {
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 a {
@@ -169,7 +170,7 @@ footer p {
 }
 
 .box:nth-child(2) {
-    background-color: #e8e897;
+    background: linear-gradient(to right, #e8e897, #37e6a3);
 }
 
 .box:nth-child(3) {
