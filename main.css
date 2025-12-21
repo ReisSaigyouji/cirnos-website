@@ -35,6 +35,14 @@ a:active {
     color: deepskyblue;
 }
 
+nav :is(a:visited, a) {
+    color: lightskyblue;
+}
+
+nav a:hover, nav a:active {
+    color: lightgray;
+}
+
 table, tr, td, th, caption {
     border: 1px solid #eee;
     font-family: 'Courier New', Courier, monospace;
@@ -184,5 +192,3 @@ footer p {
     object-fit: cover;
     display: block;
 }
-
-/*Small screens*/
