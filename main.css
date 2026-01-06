@@ -125,8 +125,10 @@ ul li:nth-child(even) {
 .circle:hover {
     background-color: deepskyblue;
     transform: scale(1.2);
-    transition-property: background-color, transform;
-    transition-duration: 2s, 2s;
+    /*transition-property: background-color, transform;*/
+    /*transition-duration: 2s, 2s;*/
+    /*transition-delay: 0.5s;*/
+    transition: all 2s 0.5s; /*same*/
 }
 
 .opposite {
