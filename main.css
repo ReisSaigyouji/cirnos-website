@@ -2,14 +2,15 @@ html {
     font-size: 1.3rem;
 }
 
-body {
-    background-color: var(--BGCOLOR);
-    color: whitesmoke;
-}
 
 :root {
     --BGCOLOR: #333;
     --FCOLOR: #232323;
+}
+
+body {
+    background-color: var(--BGCOLOR);
+    color: whitesmoke;
 }
 
 header {
